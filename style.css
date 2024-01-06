@@ -1,3 +1,7 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
   body{
     font-family: 'Open Sans', sans-serif;
   }
@@ -49,7 +53,7 @@ nav a{
 /* header style  */
 .header{
     background-color: #e9d2c2;
-    background-image: url("photo/bg.png");
+    background-image: url("photo/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     
@@ -140,4 +144,102 @@ nav a{
 }
 .skillcontainer{
     display: flex;
+    margin-top: 10px;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    background-color: #e9d2c2;
+  
+    border-radius: 10px;
+    box-shadow: #ba9c87 4px 4px;
+}
+
+/* resume style */
+
+.title3{
+font-size: 30px;
+font-weight: 700;
+color: #474747;
+margin-bottom: 10px;
+}
+.resumecontai{
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 310px;
+    margin-right: 220px;
+}
+.resumeitemtitle{
+    margin-bottom: 10px;
+}
+.resumein{
+    color: #757575;
+    margin-bottom: 10px;
+}
+.resumecontai hr {
+    margin: 30px 30px;
+}
+.download{
+    text-align: center;
+  
+}
+.btn{
+    background-color: #FD6E0A; 
+    margin-top: 50px;
+    border-color: #FD6E0A;
+    padding: 6px;
+    border-radius: 4px;
+    color: white;
+
+}
+/* footer style */
+
+footer{
+    display: flex;
+    background-color: #e9d2c2;
+    padding: 130px 200px;
+    gap: 100px;
+    margin-top: 50px;
+}
+.footercolom{
+    width: 50%;
+}
+#one{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+}
+#two{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ts{
+    padding: 10px;
+}
+.bt{
+    font-size: large;
+    font-weight: 400;
+    padding: 13px;
+    background-color: #FD6E0A;
+    color: white;
+    border-color: #FD6E0A;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.parag{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.sociallink{
+    padding: 15px;
+}
+.sociallink a{
+    margin-right: 25px;
+
 }
