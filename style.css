@@ -40,6 +40,7 @@ nav > ul{
 nav li {
     list-style: none;
     margin-right: 50px;
+    
 }
 nav a{
     text-decoration: none;
@@ -48,16 +49,95 @@ nav a{
 /* header style  */
 .header{
     background-color: #e9d2c2;
+    background-image: url("photo/bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
 }
 .banner{
-    padding: 30px 30px 30px 130px;
+    padding: 30px 30px 0px 130px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .profile{
     height: 300px;
     width: 800px;
 }
 .banner-content{
+    max-width: 500px;
+
+}
+.banin{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+.name{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+.para{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: rgb(43, 45, 186);
+}
+/* main style */
+.about{
+    padding: 60px 60px 60px 60px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 110px;
+    border-radius: 10px;
+    background-color: rgb(248, 202, 142);
+    text-align: center;
+    width: 800px;
+    height: 400px;
+}
+.sectiontitle{
+    padding: 50px;
+    color: rgb(255, 13, 0);
+    font-weight: 800;
+}
+.sectiondes{
+    padding: 20px;
+    font-style: italic;
+    color: #f50afd;
+}
+.avoutinfocontainer{
+    display: flex;
+    justify-content: space-around;
     
+}
+.aboutinfo{
+    text-align: center;
+   
+}
+.info-title{
+    font-style: normal;
+    font-weight: 100;
+   
+}
+.info-des{
+    font-weight: 800;
+   
+
+}
+
+
+.service{
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 220px;
+    padding: 60px 60px 60px 60px;
+}
+.section-title{
+    text-align: center;
+}
+.skillcontainer{
+    display: flex;
 }
